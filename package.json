@@ -1,0 +1,22 @@
+{
+  "name": "kemio-highcharts",
+  "version": "1.0.0",
+  "description": "Highcharts templates for KEMIO dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulov0b0x/kemio-highcharts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulov0b0x/kemio-highcharts/issues"
+  },
+  "homepage": "https://github.com/paulov0b0x/kemio-highcharts#readme",
+  "devDependencies": {
+    "highcharts": "^10.2.0"
+  }
+}
