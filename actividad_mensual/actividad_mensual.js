@@ -201,10 +201,6 @@ document.addEventListener("DOMContentLoaded", function () {
     el.value = opt;
     dropdownStartDate.appendChild(el);
   });
-
-  dropdownStartDate.addEventListener('change', (event) => {
-    
-  })
   
- ;
+ 
 });

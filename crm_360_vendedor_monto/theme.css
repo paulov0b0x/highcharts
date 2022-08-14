@@ -1,0 +1,18 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+ 
+.highcharts-color-0 {
+  fill: rgb(148, 48, 32);
+  stroke: rgb(148, 48, 32);
+}
+ 
+/* Titles */
+.highcharts-title {
+  fill: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.highcharts-point {
+    fill: rgb(148, 48, 32);
+    stroke: rgb(148, 48, 32);
+}

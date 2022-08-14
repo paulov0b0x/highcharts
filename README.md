@@ -2,7 +2,7 @@
 Highcharts templates for dashboards.
 
 
-How to run the eaxamples: simply enter one of the examples' folder and run
+How to run the examples: simply enter one of the examples' folder and run
 
 `browserify ${JS_FILENAME} -o bundle.js`
 
