@@ -126,8 +126,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const dropdownStartDate = document.querySelector("#dropdownStartDate");
-
   const series = [
     {
       name: "Actual",
@@ -187,12 +185,25 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
+  const datesArray = [];
   series[0].data.forEach((item) => {
     var dateIso6801 = new Date(item[0]);
     console.log(dateIso6801);
     const currentDate = dateIso6801.getDate() + "-" + (dateIso6801.getMonth() + 1) + "-" + dateIso6801.getFullYear();
-    console.log(currentDate);
+    datesArray.push(currentDate);
   });
+
+  var dropdownStartDate = document.getElementById("dropdownStartDate");
+
+  datesArray.map(item => {
+    var opt = item;
+    var el = document.createElement("option");
+    el.textContent = opt;
+    el.value = opt;
+
+    dropdownStartDate.appendChild(el);
+  });
+  
  ;
 });
 
